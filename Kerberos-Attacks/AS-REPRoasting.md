@@ -21,6 +21,9 @@
 >
 > Now that we have a list of users that **DONT_REQ_PREAUTH** Rubeus can be leveraged to retrieve the **AS-REP** in the proper format for offline hash cracking. This attack does not require and domain user context and can be done by just knowing the account name for the user without Kerberos pre-authentication set.
 
+![Rubeus ASREProasting](/Kerberos-Attacks/images/rubeus.png) 
+
+
 ### Command line useage 
 > C:\>.\Rubeus.exe asreproast /user:jenna.smith /domain:inlanefreight.local /dc:dc01.inlanefreight.local /nowrap /outfile:hashes.txt
 
