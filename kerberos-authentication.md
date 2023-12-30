@@ -7,7 +7,7 @@
 >
 > The KDC is the entity that knows all accounts' credentials.
 
-![Kerberos Authentication](/Kerberos/images/kerberos-auth.png) 
+![Kerberos Authentication](/images/kerberos-auth.png) 
 
 
 ## Why Kerberos?
@@ -57,8 +57,8 @@
 >>> - It is, therefore, **the service that checks the user's access rights**. 
 
 
-![Kerberos Tickets](/Kerberos/images/kerberos-tickets.png) 
-![Kerberos Tickets](/Kerberos/images/kerberos-tickets-2.png) 
+![Kerberos Tickets](/images/kerberos-tickets.png) 
+![Kerberos Tickets](/images/kerberos-tickets-2.png) 
 
 
 ### Ticket Protection
@@ -83,8 +83,8 @@
 >>> - In the same way, as the user does not know the service key, they cannot modify the information in the **TGS ticket**. 
 >>> - On the other hand, when they send this **TGS ticket** to the service, the latter can decrypt the ticket's content and read the user's information.
 
-![Kerberos Ticket Protection](/Kerberos/images/ticket-protection.png) 
-![Kerberos Ticket Protection](/Kerberos/images/ticket-protection-2.png) 
+![Kerberos Ticket Protection](/images/ticket-protection.png) 
+![Kerberos Ticket Protection](/images/ticket-protection-2.png) 
 
 
 ### Technical Details
@@ -112,7 +112,7 @@ a
 >> - It's the **current timestamp** that the user will encrypt their key with. 
 >> - The username is also sent in cleartext so the KDC can know whom it is dealing with.
 
-![Authentication Request](/Kerberos/images/auth-request.png) 
+![Authentication Request](/images/auth-request.png) 
 
 > 2. Upon receiving this request, the KDC will retrieve the username, look for the associated key in its directory, and attempt to decrypt the authenticator.
 >> - If it succeeds, it means that the user has used the same key as the one registered in its database, so they are authenticated.
@@ -140,7 +140,7 @@ a
 >>
 >> 2. Second is the **session key**, but this time **protected** with the **user's key**.
 
-![Authentication Response](/Kerberos/images/auth-response.png) 
+![Authentication Response](/images/auth-response.png) 
 
 > Therefore, this session key is duplicated in the response -- one version is protected with the KDC's key, and another is protected with the user's key.
 
@@ -168,7 +168,7 @@ a
 >> 2. The TGT they previously received, containing their information and a copy of the session key. 
 >> 3. An authenticator, which will be encrypted using the session key at this time.
 
-![TGS Request](/Kerberos/images/TGS-request.png) 
+![TGS Request](/images/TGS-request.png) 
 
 ### TGS Response (TGS-REP)
 
@@ -197,7 +197,7 @@ a
 >
 > - All this information is encrypted with the user/KDC session key. Within this encrypted response, the user's information and the copy of the user/service session key are also encrypted with the service key. A diagram will help make this clearer.
 
-![TGS Response](/Kerberos/images/TGS-response.png) 
+![TGS Response](/images/TGS-response.png) 
 
 
 ## Application Request (AP) 
@@ -208,7 +208,7 @@ a
 >
 > - The user will only transmit this TGS ticket to the service, and just like with the TGS request,  an authenticator is added to it. What will the user encrypt this authenticator with? You guessed it, with the user/service session key just extracted. The process is very similar to the previous TGS request.
 
-![AP Request](/Kerberos/images/AP-request.png) 
+![AP Request](/images/AP-request.png) 
 
 ### Response (AP-REP)
 
