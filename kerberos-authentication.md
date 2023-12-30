@@ -221,5 +221,5 @@ a
 >
 > - As you can see, the whole process relies on shared keys and is a three-entity job. It protects users and services against ticket stealing and replaying, as the attackers would not know the keys to issue valid authenticators. However, there are still weaknesses and misconfigurations that we can exploit to attack Kerberos, which we'll cover in the following sections.
 >
-> - If you want to explore further explanations of the Kerberos protocol, its operation, and its components, you can review [ATTL4S]'(https://twitter.com/DaniLJ94) posts on his [blog](https://attl4s.github.io/) and YouTube channel video: [English You Do (Not) Understand Kerberos](https://www.youtube.com/watch?v=4LDpb1R3Ghg&list=PLwb6et4T42wyb8dx-LQAA0PzLjw6ZlrXh). 
+> - If you want to explore further explanations of the Kerberos protocol, its operation, and its components, you can review [ATTL4S'](https://twitter.com/DaniLJ94) posts on his [blog](https://attl4s.github.io/) and YouTube channel video: [English You Do (Not) Understand Kerberos](https://www.youtube.com/watch?v=4LDpb1R3Ghg&list=PLwb6et4T42wyb8dx-LQAA0PzLjw6ZlrXh). 
 
