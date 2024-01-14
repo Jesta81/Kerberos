@@ -109,5 +109,5 @@ Different elements are needed to forge a Golden Ticket:
 
 ### Reviewing the Ticket information 
 
-![Tickets](/Tucket-Abuse/images/tickets.png) 
+![Tickets](/Ticket-Abuse/images/tickets.png) 
 
