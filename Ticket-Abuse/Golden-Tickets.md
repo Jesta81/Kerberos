@@ -44,7 +44,7 @@ Different elements are needed to forge a Golden Ticket:
 	S-1-5-21-1870146311-1183348186-593267556
 	
 
-![Get SID](/Kerberos/Ticket-Abuse/images/Get-SID.png) 
+![Get SID](/Ticket-Abuse/images/Get-SID.png) 
 
 - Then, we need to have a compromised **krbtgt** account one way or another to get its NTLM hash. We can use **mimikatz** to forge a Golden Ticket when we have this information. If we compromised an account with DCSync privileges, we can use mimikatz to get the **krbtgt** hash using the following command. 
 
