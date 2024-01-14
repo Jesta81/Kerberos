@@ -92,7 +92,7 @@ Different elements are needed to forge a Golden Ticket:
 
 ### List the Golden Ticket in the Current Session
 
-![klist](/Kerberos/Ticket-Abuse/images/klist.png) 
+![klist](/Ticket-Abuse/images/klist.png) 
 
 - So now have a valid TGT indicating we are **Administrator** and stating that we belong to several groups, including **Domain Admins**. If we need to request a service, we'll ask for a TGS ticket using this TGT, and a copy of the forged PAC will be embedded in the TGS ticket. For example, if we want to access a server using WinRM, we'll have a remote shell as **Administrator**. 
 
@@ -102,12 +102,12 @@ Different elements are needed to forge a Golden Ticket:
 	PS C:\Tools> Enter-PSSession dc01
 	
 
-![Admin](/Kerberos/Ticket-Abuse/images/admin.png) 
+![Admin](/Ticket-Abuse/images/admin.png) 
 
 - And if we come back to our original shell, we can see that we now have a TGS ticket for the **HTTP/dc01 SPN as Administrator**. 
 
 
 ### Reviewing the Ticket information 
 
-![Tickets](/Kerberos/Tucket-Abuse/images/tickets.png) 
+![Tickets](/Tucket-Abuse/images/tickets.png) 
 
