@@ -78,7 +78,7 @@ Let's say we compromised the **SQL01$ account**. We have its **NTLM hash**. We w
 	Final Ticket Saved to file !
 	
 	
-![Silver Ticket Mimikatz](/Silver-Ticket/images/Silver-Ticket-Mimikatz.png) 
+![Silver Ticket Mimikatz](/Silver-Ticket/images/silver-ticket-mimikatz.png) 
 
 
 
