@@ -6,10 +6,10 @@
 
 ## Search for the Domain SID with lookups 
 
-![Lookupsids](/Ticket-Abuse/Golden-Tickets-Linux/lookupsids.png) 
-![Lookupsids](/Ticket-Abuse/Golden-Tickets-Linux/lookupsids-2.png) 
-![Lookupsids](/Ticket-Abuse/Golden-Tickets-Linux/lookupsids-3.png) 
-![Lookupsids](/Ticket-Abuse/Golden-Tickets-Linux/lookupsids-4.png)
+![Lookupsids](/Ticket-Abuse/Golden-Tickets-Linux/images/lookupsids.png) 
+![Lookupsids](/Ticket-Abuse/Golden-Tickets-Linux/images/lookupsids-2.png) 
+![Lookupsids](/Ticket-Abuse/Golden-Tickets-Linux/images/lookupsids-3.png) 
+![Lookupsids](/Ticket-Abuse/Golden-Tickets-Linux/images/lookupsids-4.png)
 
  
 
@@ -58,7 +58,7 @@
 
 
 
-!{ticketer}(![Lookupsids](/Ticket-Abuse/Golden-Tickets-Linux/ticketer.png) 
+!{ticketer}(![Lookupsids](/Ticket-Abuse/Golden-Tickets-Linux/images/ticketer.png) 
 
 
 
@@ -70,7 +70,7 @@
 	> export KRBBCCNAME=./Administrator.ccache 
 	
 
-![Import Ticket] (/Ticket-Abuse/Golden-Tickets-Linux/import-ticket.png) 
+![Import Ticket] (/Ticket-Abuse/Golden-Tickets-Linux/images/import-ticket.png) 
 
 
 ## You're FUCKED!!
@@ -81,10 +81,10 @@
 
 
 	
-![Hacked](/Ticket-Abuse/Golden-Tickets-Linux/fukd.png) 
-![Hacked](/Ticket-Abuse/Golden-Tickets-Linux/fukd-2.png) 
-![Hacked](/Ticket-Abuse/Golden-Tickets-Linux/fukd-3.png) 
-![Hacked](/Ticket-Abuse/Golden-Tickets-Linux/fukd-4.png) 
+![Hacked](/Ticket-Abuse/Golden-Tickets-Linux/images/fukd.png) 
+![Hacked](/Ticket-Abuse/Golden-Tickets-Linux/images/fukd-2.png) 
+![Hacked](/Ticket-Abuse/Golden-Tickets-Linux/images/fukd-3.png) 
+![Hacked](/Ticket-Abuse/Golden-Tickets-Linux/images/fukd-4.png) 
 
 ## Detection
 
