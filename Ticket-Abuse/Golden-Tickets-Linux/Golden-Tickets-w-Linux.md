@@ -58,7 +58,7 @@
 
 
 
-!{ticketer}(![Lookupsids](/Ticket-Abuse/Golden-Tickets-Linux/images/ticketer.png) 
+![ticketer](/Ticket-Abuse/Golden-Tickets-Linux/images/ticketer.png) 
 
 
 
@@ -70,7 +70,7 @@
 	> export KRBBCCNAME=./Administrator.ccache 
 	
 
-![Import Ticket] (/Ticket-Abuse/Golden-Tickets-Linux/images/import-ticket.png) 
+![Import Ticket](/Ticket-Abuse/Golden-Tickets-Linux/images/import-ticket.png) 
 
 
 ## You're FUCKED!!
