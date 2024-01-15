@@ -108,7 +108,7 @@ The ticket has been forged and saved in the current **Administrator.ccache** dir
 	> export KRB5CCNAME=Administrator.ccache 
 	
 
-[Ticketer.py](/Ticket-Abuse/Silver-Ticket-w-Linux/images/Ticketer.png) 
+![Ticketer.py](/Ticket-Abuse/Silver-Ticket-w-Linux/images/Ticketer.png) 
 
 
 
@@ -116,7 +116,7 @@ The ticket has been forged and saved in the current **Administrator.ccache** dir
 
 
 
-[smbclient.py](/Ticket-Abuse/Silver-Ticket-w-Linux/images/exploit.png) 
+![smbclient.py](/Ticket-Abuse/Silver-Ticket-w-Linux/images/smbclient.png) 
 
 
 
