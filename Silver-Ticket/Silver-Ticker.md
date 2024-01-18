@@ -36,7 +36,7 @@ Different elements are needed to forge a Silver Ticket. First, we need the domai
 	S-1-5-21-1870146311-1183348186-593267556
 		
 
-![Get-Domain-SID](/Ticket-Abuse/Silver-Ticket/images/sid.png) 
+![Get-Domain-SID](/Silver-Ticket/images/sid.png) 
 
 
 We also must have **compromised a service account (one way or another) to get its NTLM hash**. We must also **specify an SPN** because a **TGS ticket is always generated for one SPN only**. We can use **mimikatz** to forge a **Silver Ticket** when we have this information.
@@ -78,7 +78,7 @@ Let's say we compromised the **SQL01$ account**. We have its **NTLM hash**. We w
 	Final Ticket Saved to file !
 	
 	
-![Silver Ticket Mimikatz](/Ticket-Abuse/Silver-Ticket/images/Silver-Ticket-Mimikatz.png) 
+![Silver Ticket Mimikatz](/Silver-Ticket/images/Silver-Ticket-Mimikatz.png) 
 
 
 
@@ -107,7 +107,7 @@ As we can see on the last line, the Silver Ticket has been created and submitted
 		   Kdc Called:
 
 
-![Tickts](/Ticket-Abuse/Silver-Ticket/images/tickets.png) 
+![Tickts](/Silver-Ticket/images/tickets.png) 
 
 
 
@@ -117,7 +117,7 @@ Now that we have a ticket to **access the SQL01 filesystem**, we can use the **d
 
 ## Displaying Directory Information with "dir". 
 
-![Remote Control](/Ticket-Abuse/Silver-Tickets/images/dir.png) 
+![Remote Control](/Silver-Tickets/images/dir.png) 
 
 
 We can also create a **Sacrificial Process**. We will discuss about sacrifical processes more in the Pass-the-Ticket section to execute PSExec using the CIFS service. Let's **create a ticket and save it in sql01.kirbi**: 
@@ -151,7 +151,7 @@ We can also create a **Sacrificial Process**. We will discuss about sacrifical p
 	
 
 
-![Mimikatz Silver](/Ticket-Abuse/Silver-Tickets/images/Mimikatz-Silver.png) 
+![Mimikatz Silver](/Silver-Tickets/images/Mimikatz-Silver.png) 
 
 
 
@@ -184,7 +184,7 @@ We can also create a **Sacrificial Process**. We will discuss about sacrifical p
 	[+] LUID            : 0x19983f
 
 
-![Create Process Rubues](/Ticket-Abuse/Silver-Tickets/images/create-process-rubeus.png) 
+![Create Process Rubues](/Silver-Tickets/images/create-process-rubeus.png) 
 
 
 
@@ -213,7 +213,7 @@ This Rubeus action [createnetonly](https://github.com/GhostPack/Rubeus#createnet
 	[+] Ticket successfully imported!
 
 
-![Import Ticket](/Ticket-Abuse/Silver-Tickets/images/Import-Ticket.png) 
+![Import Ticket](/Silver-Tickets/images/Import-Ticket.png) 
 
 
 
