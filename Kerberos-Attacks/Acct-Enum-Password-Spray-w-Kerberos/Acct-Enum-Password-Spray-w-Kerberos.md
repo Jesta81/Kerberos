@@ -17,7 +17,7 @@ To install Kerbrute, we need to download the binary from [kerbrute releases](htt
 
 
 
-![kerbrute install](/Kerberos/Kerberos-Attacks/Acct-Enum-Password-Spray-w-Kerberos/images/kerbrute-install.png) 
+![kerbrute install](/Acct-Enum-Password-Spray-w-Kerberos/images/kerbrute-install.png) 
 
 
 
@@ -53,7 +53,7 @@ In this example, we provided **Kerbrute** with a list of 209 usernames, and 1 of
 
 
 
-![Kerbrute User Enum](/Kerberos/Kerberos-Attacks/Acct-Enum-Password-Spray-w-Kerberos/images/kerbrute-user-enum.png) 
+![Kerbrute User Enum](/Acct-Enum-Password-Spray-w-Kerberos/images/kerbrute-user-enum.png) 
 
 
 
@@ -102,6 +102,6 @@ Impacket for Exegol - v0.10.1.dev1+20230909.241.3001b261 - Copyright 2022 Fortra
 In this case, we provided Kerbrute with a list of 117 usernames and the password inlanefreight2020. It was valid for four of them. 
 
 
-![Password Spray](/Kerberos/Kerberos-Attacks/Acct-Enum-Password-Spray-w-Kerberos/images/password-spray.png) 
+![Password Spray](/Acct-Enum-Password-Spray-w-Kerberos/images/password-spray.png) 
 
 
