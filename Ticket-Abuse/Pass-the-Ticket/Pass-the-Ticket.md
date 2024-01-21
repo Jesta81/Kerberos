@@ -134,7 +134,7 @@ You can check all the tickets you can read and extract using the [triage](https:
 Our current LUID (Logon UID) is **0x5eef3**, but no tickets are associated with our session. We can use **klist** to make sure of this.
 
 
-![klist](/Ticket-Abuse/Pass-the-Ticket-images/klist.png) 
+![klist](/Ticket-Abuse/Pass-the-Ticket/images/klist.png) 
 
 
 
